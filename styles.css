@@ -9,6 +9,12 @@
   --default-font-family: var(--font-pixl);
 }
 
+@layer base {
+  *:focus-visible {
+    outline: 2px solid var(--color-pixl);
+  }
+}
+
 @font-face {
   font-family: "Departure Mono";
   src:
